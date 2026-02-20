@@ -1,0 +1,25 @@
+---
+galaxy_info:
+  role_name: appstream_check
+  author: Klaas Weyermann
+  description: >-
+    Check installed RPMs and modular streams against Red Hat AppStream
+    lifecycle data and report items past end-of-life.
+  license: GPL-3.0-or-later
+  min_ansible_version: "2.16"
+
+  platforms:
+    - name: EL
+      versions:
+        - "8"
+        - "9"
+        - "10"
+
+  galaxy_tags:
+    - linux
+    - redhat
+    - appstream
+    - lifecycle
+    - security
+
+dependencies: []

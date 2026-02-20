@@ -1,0 +1,26 @@
+---
+galaxy_info:
+  role_name: appstream_cleanup
+  author: Klaas Weyermann
+  description: >-
+    Remove retired AppStream packages identified by the appstream_check
+    role or module.
+  license: GPL-3.0-or-later
+  min_ansible_version: "2.16"
+
+  platforms:
+    - name: EL
+      versions:
+        - "8"
+        - "9"
+        - "10"
+
+  galaxy_tags:
+    - linux
+    - redhat
+    - appstream
+    - lifecycle
+    - cleanup
+
+dependencies:
+  - role: klaas_.appstream.appstream_check
