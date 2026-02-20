@@ -13,10 +13,12 @@ def parse_date(value: Union[str, _date]) -> _date:
     if isinstance(value, _date):
         return value
     text = str(value).strip()
-    try:
-        return _date.fromisoformat(text)
-    except ValueError:
-        pass
+    fromisoformat = getattr(_date, "fromisoformat", None)
+    if fromisoformat is not None:
+        try:
+            return fromisoformat(text)
+        except ValueError:
+            pass
     # Fallback for Python < 3.11 which requires zero-padded YYYY-MM-DD
     try:
         parts = text.split("-")
