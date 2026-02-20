@@ -1,0 +1,41 @@
+---
+name: Update AppStreams Data
+
+"on":
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-appstreams:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch latest appstreams data
+        env:
+          OFFLINE_ACCESS_TOKEN: ${{ secrets.OFFLINE_ACCESS_TOKEN }}
+        run: python scripts/redhat_get_appstreams.py
+
+      - name: Commit and push updated appstreams vars
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          if ! git diff --exit-code roles/appstream_check/vars/redhat_appstreams.yml; then
+            git add roles/appstream_check/vars/redhat_appstreams.yml
+            git commit -m "chore: update appstream vars data"
+            git push
+          fi

@@ -1,0 +1,33 @@
+
+[collection]
+min_python_version = "3.6"
+
+[sessions]
+
+[sessions.lint]
+flake8_config = ".flake8"
+yamllint_config = ".yamllint"
+pylint_rcfile = ".pylintrc"
+# disable reformatting for now
+run_isort = false
+
+# disable reformatting for now
+run_black = false
+
+# Add more configuration settings here to adjust to your collection;
+# see https://docs.ansible.com/projects/antsibull-nox/config-file/#basic-linting-sessions
+
+[sessions.docs_check]
+default = false
+# Add configuration settings here to adjust to your collection;
+# see https://docs.ansible.com/projects/antsibull-nox/config-file/#collection-documentation-check
+
+[sessions.ansible_test_sanity]
+default = true
+min_version = "2.17"
+max_version = "2.20"
+
+[sessions.ansible_test_units]
+default = true
+min_version = "2.17"
+max_version = "2.20"

@@ -1,0 +1,7 @@
+---
+- name: Run appstream_cleanup role
+  hosts: all
+  gather_facts: true
+
+  roles:
+    - role: klaas_.appstream.appstream_cleanup

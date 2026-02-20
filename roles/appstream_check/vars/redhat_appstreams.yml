@@ -1,0 +1,7074 @@
+appstream_check_grouped:
+  el8:
+    dnf_module:
+    - name: 389-ds
+      stream: '1.4'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: ant
+      stream: '1.10'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: container-tools
+      stream: '1.0'
+      end_date: '2021-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: container-tools
+      stream: '2.0'
+      end_date: '2022-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: container-tools
+      stream: '3.0'
+      end_date: '2023-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: container-tools
+      stream: '4.0'
+      end_date: '2024-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: container-tools
+      stream: rhel8
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: eclipse
+      stream: rhel8
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: freeradius
+      stream: '3.0'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: go-toolset
+      stream: rhel8
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: httpd
+      stream: '2.4'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: idm
+      stream: client
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: idm
+      stream: DL1
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: jmc
+      stream: rhel8
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: llvm-toolset
+      stream: rhel8
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: mailman
+      stream: '2.1'
+      end_date: '2024-06-30'
+      impl: dnf_module
+      os_major: 8
+    - name: mariadb
+      stream: '10.11'
+      end_date: '2028-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: mariadb
+      stream: '10.3'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: mariadb
+      stream: '10.5'
+      end_date: '2026-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: maven
+      stream: '3.5'
+      end_date: '2022-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: maven
+      stream: '3.6'
+      end_date: '2023-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: maven
+      stream: '3.8'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: mercurial
+      stream: '4.8'
+      end_date: '2022-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: mercurial
+      stream: '6.2'
+      end_date: '2025-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: mod_auth_openidc
+      stream: '2.3'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: mysql
+      stream: '8.0'
+      end_date: '2026-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: mysql
+      stream: '8.4'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: nginx
+      stream: '1.14'
+      end_date: '2021-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: nginx
+      stream: '1.16'
+      end_date: '2021-10-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nginx
+      stream: '1.18'
+      end_date: '2022-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nginx
+      stream: '1.20'
+      end_date: '2023-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nginx
+      stream: '1.22'
+      end_date: '2025-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nginx
+      stream: '1.24'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: nodejs
+      stream: '10'
+      end_date: '2021-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nodejs
+      stream: '12'
+      end_date: '2022-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nodejs
+      stream: '14'
+      end_date: '2023-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nodejs
+      stream: '16'
+      end_date: '2024-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nodejs
+      stream: '18'
+      end_date: '2025-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nodejs
+      stream: '20'
+      end_date: '2026-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nodejs
+      stream: '22'
+      end_date: '2027-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: nodejs
+      stream: '24'
+      end_date: '2028-04-30'
+      impl: dnf_module
+      os_major: 8
+    - name: perl
+      stream: '5.24'
+      end_date: '2021-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: perl
+      stream: '5.26'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: perl
+      stream: '5.30'
+      end_date: '2023-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: perl
+      stream: '5.32'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: php
+      stream: '7.2'
+      end_date: '2021-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: php
+      stream: '7.3'
+      end_date: '2021-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: php
+      stream: '7.4'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: php
+      stream: '8.0'
+      end_date: '2024-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: php
+      stream: '8.2'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: pki-core
+      stream: '10.6'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: pki-deps
+      stream: '10.6'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: postgresql
+      stream: '10'
+      end_date: '2024-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: postgresql
+      stream: '12'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: postgresql
+      stream: '13'
+      end_date: '2026-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: postgresql
+      stream: '15'
+      end_date: '2028-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: postgresql
+      stream: '16'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: postgresql
+      stream: '9.6'
+      end_date: '2021-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: python27
+      stream: '2.7'
+      end_date: '2024-06-30'
+      impl: dnf_module
+      os_major: 8
+    - name: python36
+      stream: '3.6'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: python38
+      stream: '3.8'
+      end_date: '2023-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: python39
+      stream: '3.9'
+      end_date: '2025-11-30'
+      impl: dnf_module
+      os_major: 8
+    - name: redis
+      stream: '5'
+      end_date: '2022-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: redis
+      stream: '6'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: ruby
+      stream: '2.5'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: ruby
+      stream: '2.6'
+      end_date: '2022-03-31'
+      impl: dnf_module
+      os_major: 8
+    - name: ruby
+      stream: '2.7'
+      end_date: '2023-03-31'
+      impl: dnf_module
+      os_major: 8
+    - name: ruby
+      stream: '3.0'
+      end_date: '2024-03-31'
+      impl: dnf_module
+      os_major: 8
+    - name: ruby
+      stream: '3.1'
+      end_date: '2025-03-31'
+      impl: dnf_module
+      os_major: 8
+    - name: ruby
+      stream: '3.3'
+      end_date: '2027-03-31'
+      impl: dnf_module
+      os_major: 8
+    - name: rust-toolset
+      stream: rhel8
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: scala
+      stream: '2.10'
+      end_date: '2023-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: squid
+      stream: '4'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: subversion
+      stream: '1.10'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: subversion
+      stream: '1.14'
+      end_date: '2024-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: swig
+      stream: '3.0'
+      end_date: '2022-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: swig
+      stream: '4.0'
+      end_date: '2024-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: swig
+      stream: '4.1'
+      end_date: '2027-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: varnish
+      stream: '6'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    - name: virt
+      stream: rhel
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 8
+    package:
+    - name: ansible-core
+      stream: '2.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: authd
+      stream: 1.4.4
+      end_date: '2021-05-31'
+      impl: package
+      os_major: 8
+    - name: dotnet
+      stream: '2.1'
+      end_date: '2021-08-31'
+      impl: package
+      os_major: 8
+    - name: dotnet10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 8
+    - name: dotnet3.0
+      stream: '3.0'
+      end_date: '2020-03-03'
+      impl: package
+      os_major: 8
+    - name: dotnet3.1
+      stream: '3.1'
+      end_date: '2022-12-03'
+      impl: package
+      os_major: 8
+    - name: dotnet5.0
+      stream: '5.0'
+      end_date: '2022-05-09'
+      impl: package
+      os_major: 8
+    - name: dotnet6.0
+      stream: '6.0'
+      end_date: '2024-11-30'
+      impl: package
+      os_major: 8
+    - name: dotnet7.0
+      stream: '7.0'
+      end_date: '2024-05-31'
+      impl: package
+      os_major: 8
+    - name: dotnet8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 8
+    - name: dotnet9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-10
+      stream: '10'
+      end_date: '2022-11-03'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-11
+      stream: '11'
+      end_date: '2023-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-12
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-13
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-13-dwz
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-13-gcc
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-13-gdb
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-annobin-annocheck
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-annobin-docs
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-annobin-plugin-clang
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-annobin-plugin-gcc
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-annobin-plugin-llvm
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-binutils
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-binutils-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-binutils-gold
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-dwz
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-14-gcc
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-annobin-annocheck
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-annobin-docs
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-annobin-plugin-clang
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-annobin-plugin-gcc
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-annobin-plugin-llvm
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-binutils
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-binutils-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-binutils-gold
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-dwz
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-gcc
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-15-gdb
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 8
+    - name: gcc-toolset-9
+      stream: '9.0'
+      end_date: '2021-11-01'
+      impl: package
+      os_major: 8
+    - name: git
+      stream: 2.x
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: java-1.8.0-openjdk
+      stream: 1.8.0
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: java-11-openjdk
+      stream: '11'
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 8
+    - name: java-17-openjdk
+      stream: '17'
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 8
+    - name: java-21-openjdk
+      stream: '21'
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 8
+    - name: make
+      stream: rhel8
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: osinfo-db
+      stream: '20181011'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-PyMySQL
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-cffi
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-charset-normalizer
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-cryptography
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-devel
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-idna
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-libs
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-lxml
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-mod_wsgi
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-numpy
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-numpy-f2py
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-pip
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-pip-wheel
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-ply
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-psycopg2
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-pycparser
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-pysocks
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-pyyaml
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-requests
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-rpm-macros
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-scipy
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-setuptools
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-setuptools-wheel
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-six
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-tkinter
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-urllib3
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.11-wheel
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-PyMySQL
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-cffi
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-charset-normalizer
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-cryptography
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-devel
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-idna
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-libs
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-lxml
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-mod_wsgi
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-numpy
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-numpy-f2py
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-pip
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-pip-wheel
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-ply
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-psycopg2
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-pycparser
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-pyyaml
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-requests
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-rpm-macros
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-scipy
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-setuptools
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-tkinter
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-urllib3
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+    - name: python3.12-wheel
+      stream: '3.12'
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 8
+  el9:
+    package:
+    - name: aardvark-dns
+      stream: 1.5.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: ansible-core
+      stream: '2.14'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: ansible-test
+      stream: '2.14'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-runtime-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-runtime-6.0
+      stream: 6.0.3
+      end_date: '2024-11-08'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-runtime-7.0
+      stream: '7.0'
+      end_date: '2024-05-30'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-runtime-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-runtime-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-runtime-dbg-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-runtime-dbg-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-runtime-dbg-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-targeting-pack-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-targeting-pack-6.0
+      stream: 6.0.3
+      end_date: '2024-11-08'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-targeting-pack-7.0
+      stream: '7.0'
+      end_date: '2024-05-30'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-targeting-pack-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-targeting-pack-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: autoconf-latest
+      stream: '2.71'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: autoconf271
+      stream: '2.71'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: bind
+      stream: 9.16.23
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: bind9.18
+      stream: '9.18'
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: bind9.18-chroot
+      stream: 9.18.29
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: bind9.18-devel
+      stream: 9.18.29
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: bind9.18-dnssec-utils
+      stream: 9.18.29
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: bind9.18-doc
+      stream: 9.18.29
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: bind9.18-dyndb-ldap
+      stream: '11.11'
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: bind9.18-libs
+      stream: 9.18.29
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: bind9.18-utils
+      stream: 9.18.29
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: bindgen-cli
+      stream: 0.72.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: bubblewrap
+      stream: 0.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: buildah
+      stream: 1.29.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: buildah-tests
+      stream: 1.29.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: cargo
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: cargo-doc
+      stream: 1.62.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: cbindgen
+      stream: 0.29.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: clang
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: clang-analyzer
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: clang-devel
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: clang-libs
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: clang-resource-filesystem
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: clang-tools-extra
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: clippy
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: cmake
+      stream: 3.20.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: cmake-data
+      stream: 3.20.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: cmake-filesystem
+      stream: 3.20.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: cmake-gui
+      stream: 3.20.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: cmake-rpm-macros
+      stream: 3.20.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: compiler-rt
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: conmon
+      stream: 2.1.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: container-selinux
+      stream: 2.205.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: containernetworking-plugins
+      stream: 1.2.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: containers-common
+      stream: '1'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: containers-common-extra
+      stream: '1'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: crun
+      stream: 1.8.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: delve
+      stream: 1.9.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: dotnet-apphost-pack-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-apphost-pack-6.0
+      stream: 6.0.3
+      end_date: '2024-11-08'
+      impl: package
+      os_major: 9
+    - name: dotnet-apphost-pack-7.0
+      stream: '7.0'
+      end_date: '2024-05-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-apphost-pack-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-apphost-pack-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: dotnet-host
+      stream: '10.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: dotnet-hostfxr-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-hostfxr-6.0
+      stream: 6.0.3
+      end_date: '2024-11-08'
+      impl: package
+      os_major: 9
+    - name: dotnet-hostfxr-7.0
+      stream: '7.0'
+      end_date: '2024-05-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-hostfxr-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-hostfxr-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: dotnet-runtime-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-runtime-6.0
+      stream: 6.0.3
+      end_date: '2024-11-08'
+      impl: package
+      os_major: 9
+    - name: dotnet-runtime-7.0
+      stream: '7.0'
+      end_date: '2024-05-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-runtime-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-runtime-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: dotnet-runtime-dbg-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-runtime-dbg-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-runtime-dbg-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-10.0-source-built-artifacts
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-6.0
+      stream: 6.0.103
+      end_date: '2024-11-08'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-6.0-source-built-artifacts
+      stream: 6.0.103
+      end_date: '2024-11-08'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-7.0
+      stream: '7.0'
+      end_date: '2024-05-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-7.0-source-built-artifacts
+      stream: '7.0'
+      end_date: '2024-05-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-8.0-source-built-artifacts
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-9.0-source-built-artifacts
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-aot-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-aot-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-dbg-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-dbg-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-dbg-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: dotnet-targeting-pack-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-targeting-pack-6.0
+      stream: 6.0.3
+      end_date: '2024-11-08'
+      impl: package
+      os_major: 9
+    - name: dotnet-targeting-pack-7.0
+      stream: '7.0'
+      end_date: '2024-05-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-targeting-pack-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-targeting-pack-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: dotnet-templates-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-templates-6.0
+      stream: 6.0.103
+      end_date: '2024-11-08'
+      impl: package
+      os_major: 9
+    - name: dotnet-templates-7.0
+      stream: '7.0'
+      end_date: '2024-05-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-templates-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 9
+    - name: dotnet-templates-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 9
+    - name: esc
+      stream: 1.1.2
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: firefox
+      stream: 102.9.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: firefox-x11
+      stream: 102.9.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: fuse-overlayfs
+      stream: '1.10'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-annobin-annocheck
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-annobin-docs
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-annobin-plugin-gcc
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-binutils
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-binutils-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-binutils-gold
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-build
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-dwz
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-gcc
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-gcc-c++
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-gcc-gfortran
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-gcc-plugin-annobin
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-gcc-plugin-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-gdb
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libasan-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libatomic-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libgccjit
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libgccjit-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libgccjit-docs
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libitm-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-liblsan-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libquadmath-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libstdc++-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libstdc++-docs
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libtsan-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-libubsan-devel
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-offload-nvptx
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-12-runtime
+      stream: '12'
+      end_date: '2024-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-annobin-annocheck
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-annobin-docs
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-annobin-plugin-gcc
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-binutils
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-binutils-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-binutils-gold
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-dwz
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-gcc
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-gcc-c++
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-gcc-gfortran
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-gcc-plugin-annobin
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-gcc-plugin-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-gdb
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libasan-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libatomic-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libgccjit
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libgccjit-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libitm-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-liblsan-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libquadmath-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libstdc++-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libstdc++-docs
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libtsan-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-libubsan-devel
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-offload-nvptx
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-13-runtime
+      stream: '13'
+      end_date: '2025-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-annobin-annocheck
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-annobin-docs
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-annobin-libannocheck
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-annobin-plugin-clang
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-annobin-plugin-gcc
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-annobin-plugin-llvm
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-binutils
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-binutils-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-binutils-gold
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-binutils-gprofng
+      stream: '2.41'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-dwz
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-gcc
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-gcc-c++
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-gcc-gfortran
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-gcc-plugin-annobin
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-gcc-plugin-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-gdb
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-gdb-gdbserver
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libasan-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libatomic-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libgccjit
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libgccjit-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libhwasan-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libitm-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-liblsan-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libquadmath-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libstdc++-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libstdc++-docs
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libtsan-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-libubsan-devel
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-offload-nvptx
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-14-runtime
+      stream: '14'
+      end_date: '2026-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-binutils
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-binutils-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-binutils-gold
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-binutils-gprofng
+      stream: '2.44'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-gcc
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-gcc-c++
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-gcc-gfortran
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-gcc-plugin-annobin
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-gcc-plugin-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libasan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libatomic-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libgccjit
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libgccjit-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libhwasan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libitm-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-liblsan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libquadmath-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libstdc++-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libstdc++-docs
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libtsan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-libubsan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-offload-nvptx
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: gcc-toolset-15-runtime
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 9
+    - name: git
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-all
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-clang-format
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-core
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-core-doc
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-credential-libsecret
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-daemon
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-email
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-gui
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-instaweb
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-lfs
+      stream: 3.2.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-subtree
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: git-svn
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: gitk
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: gitweb
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: go-filesystem
+      stream: 3.2.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: go-rpm-macros
+      stream: 3.2.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: go-rpm-templates
+      stream: 3.2.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: go-toolset
+      stream: 1.19.6
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: golang
+      stream: 1.19.6
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: golang-bin
+      stream: 1.19.6
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: golang-misc
+      stream: 1.19.6
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: golang-race
+      stream: 1.19.6
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: golang-src
+      stream: 1.19.6
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: golang-tests
+      stream: 1.19.6
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: gvisor-tap-vsock
+      stream: '9.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: gvisor-tap-vsock-gvforwarder
+      stream: 0.8.3
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: httpd
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: httpd-core
+      stream: 2.4.53
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: httpd-devel
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: httpd-filesystem
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: httpd-manual
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: httpd-tools
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-jss
+      stream: 5.2.1
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-jss-tomcat
+      stream: 5.5.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-ldapjdk
+      stream: 5.2.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-pki-acme
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-pki-base
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-pki-ca
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-pki-est
+      stream: 11.3.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-pki-java
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-pki-kra
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-pki-server
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-pki-tools
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: idm-tomcatjss
+      stream: 8.2.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-demo
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-demo-fastdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-demo-slowdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-devel
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-devel-fastdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-devel-slowdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-fastdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-headless
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-headless-fastdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-headless-slowdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-javadoc
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-javadoc-zip
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-slowdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-src
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-src-fastdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-1.8.0-openjdk-src-slowdebug
+      stream: 1.8.0.322.b06
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-demo
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-demo-fastdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-demo-slowdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-devel
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-devel-fastdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-devel-slowdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-fastdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-headless
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-headless-fastdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-headless-slowdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-javadoc
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-javadoc-zip
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-jmods
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-jmods-fastdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-jmods-slowdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-slowdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-src
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-src-fastdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-src-slowdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-static-libs
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-static-libs-fastdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-11-openjdk-static-libs-slowdebug
+      stream: 11.0.14.1.1
+      end_date: '2024-10-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-demo
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-demo-fastdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-demo-slowdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-devel
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-devel-fastdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-devel-slowdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-fastdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-headless
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-headless-fastdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-headless-slowdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-javadoc
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-javadoc-zip
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-jmods
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-jmods-fastdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-jmods-slowdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-slowdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-src
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-src-fastdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-src-slowdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-static-libs
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-static-libs-fastdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-17-openjdk-static-libs-slowdebug
+      stream: 17.0.2.0.8
+      end_date: '2027-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-demo
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-demo-fastdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-demo-slowdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-devel
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-devel-fastdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-devel-slowdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-fastdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-headless
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-headless-fastdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-headless-slowdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-javadoc
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-javadoc-zip
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-jmods
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-jmods-fastdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-jmods-slowdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-slowdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-src
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-src-fastdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-src-slowdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-static-libs
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-static-libs-fastdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-21-openjdk-static-libs-slowdebug
+      stream: 21.0.0.0.0
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: jaxb-api
+      stream: 2.3.3
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: jboss-jaxrs-2.0-api
+      stream: 1.0.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: jboss-logging
+      stream: 3.4.1
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: jboss-logging-tools
+      stream: 2.2.1
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: jdeparser
+      stream: 2.0.3
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: jmc-core
+      stream: 7.1.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: jss
+      stream: 5.0.3
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: ldapjdk
+      stream: 5.0.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: libomp
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: libomp-devel
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: libomp-test
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: lld
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: lld-devel
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: lld-libs
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: lld-test
+      stream: 14.0.6
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: lldb
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: lldb-devel
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: llvm
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: llvm-devel
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: llvm-filesystem
+      stream: 20.1.8
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: llvm-googletest
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: llvm-libs
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: llvm-static
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: llvm-test
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: llvm-toolset
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: make-latest
+      stream: 4.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: make441
+      stream: 4.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-backup
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-common
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-devel
+      stream: 10.5.16
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-embedded
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-embedded-devel
+      stream: 10.5.16
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-errmsg
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-gssapi-server
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-oqgraph-engine
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-pam
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-server
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-server-galera
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-server-utils
+      stream: 10.5.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mariadb-test
+      stream: 10.5.16
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mod_jk
+      stream: 1.2.48
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: mod_ldap
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mod_lua
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mod_proxy_cluster
+      stream: 1.3.14
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: mod_proxy_html
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mod_session
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mod_ssl
+      stream: 2.4.51
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: mysql
+      stream: 8.0.28
+      end_date: '2026-04-30'
+      impl: package
+      os_major: 9
+    - name: mysql-common
+      stream: 8.0.28
+      end_date: '2026-04-30'
+      impl: package
+      os_major: 9
+    - name: mysql-devel
+      stream: 8.0.30
+      end_date: '2026-04-30'
+      impl: package
+      os_major: 9
+    - name: mysql-errmsg
+      stream: 8.0.28
+      end_date: '2026-04-30'
+      impl: package
+      os_major: 9
+    - name: mysql-libs
+      stream: 8.0.30
+      end_date: '2026-04-30'
+      impl: package
+      os_major: 9
+    - name: mysql-server
+      stream: 8.0.28
+      end_date: '2026-04-30'
+      impl: package
+      os_major: 9
+    - name: mysql-test
+      stream: 8.0.30
+      end_date: '2026-04-30'
+      impl: package
+      os_major: 9
+    - name: netavark
+      stream: 1.5.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: netstandard-targeting-pack-2.1
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: nginx
+      stream: 1.20.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: nodejs
+      stream: 16.14.0
+      end_date: '2024-04-30'
+      impl: package
+      os_major: 9
+    - name: nodejs-docs
+      stream: 16.18.1
+      end_date: '2024-04-30'
+      impl: package
+      os_major: 9
+    - name: nodejs-full-i18n
+      stream: 16.14.0
+      end_date: '2024-04-30'
+      impl: package
+      os_major: 9
+    - name: nodejs-libs
+      stream: 16.14.0
+      end_date: '2024-04-30'
+      impl: package
+      os_major: 9
+    - name: nodejs-nodemon
+      stream: 2.0.3
+      end_date: '2024-04-30'
+      impl: package
+      os_major: 9
+    - name: npm
+      stream: 8.3.1
+      end_date: '2024-04-30'
+      impl: package
+      os_major: 9
+    - name: oci-seccomp-bpf-hook
+      stream: 1.2.8
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Attribute-Handlers
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-AutoLoader
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-AutoSplit
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-B
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Benchmark
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Class-Struct
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Config-Extensions
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-DBM_Filter
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Devel-Peek
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Devel-SelfStubber
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-DirHandle
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Dumpvalue
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-DynaLoader
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-English
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Errno
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-ExtUtils-Constant
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-ExtUtils-Embed
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-ExtUtils-Miniperl
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Fcntl
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-File-Basename
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-File-Compare
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-File-Copy
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-File-DosGlob
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-File-Find
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-File-stat
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-FileCache
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-FileHandle
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-FindBin
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-GDBM_File
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Getopt-Std
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Git
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Git-SVN
+      stream: 2.39.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Hash-Util
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Hash-Util-FieldHash
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-I18N-Collate
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-I18N-LangTags
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-I18N-Langinfo
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-IO
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-IPC-Open3
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Locale-Maketext-Simple
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Math-Complex
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Memoize
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Module-Loaded
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-NDBM_File
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-NEXT
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Net
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-ODBM_File
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Opcode
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-POSIX
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Pod-Functions
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Pod-Html
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Safe
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Search-Dict
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-SelectSaver
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-SelfLoader
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Symbol
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Sys-Hostname
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Term-Complete
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Term-ReadLine
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Test
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Text-Abbrev
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Thread
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Thread-Semaphore
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Tie
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Tie-File
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Tie-Memoize
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Time
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Time-Piece
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-Unicode-UCD
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-User-pwent
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-autouse
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-base
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-blib
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-debugger
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-deprecate
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-devel
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-diagnostics
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-doc
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-encoding-warnings
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-fields
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-filetest
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-if
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-interpreter
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-less
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-lib
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-libnetcfg
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-libs
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-locale
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-macros
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-meta-notation
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-mro
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-open
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-overload
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-overloading
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-ph
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-sigtrap
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-sort
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-subs
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-utils
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-vars
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: perl-vmsish
+      stream: '5.32'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-bcmath
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-cli
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-common
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-dba
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-dbg
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-devel
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-embedded
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-enchant
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-ffi
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-fpm
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-gd
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-gmp
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-intl
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-ldap
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-mbstring
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-mysqlnd
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-odbc
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-opcache
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-pdo
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-pgsql
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-process
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-snmp
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-soap
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: php-xml
+      stream: 8.0.13
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-acme
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-base
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-base-java
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-ca
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-jackson-annotations
+      stream: 2.11.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-jackson-core
+      stream: 2.11.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-jackson-databind
+      stream: 2.11.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-jackson-jaxrs-json-provider
+      stream: 2.11.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-jackson-jaxrs-providers
+      stream: 2.11.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-jackson-module-jaxb-annotations
+      stream: 2.11.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-kra
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-resteasy
+      stream: 3.0.26
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-resteasy-client
+      stream: 3.0.26
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-resteasy-core
+      stream: 3.0.26
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-resteasy-jackson2-provider
+      stream: 3.0.26
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-resteasy-servlet-initializer
+      stream: 3.0.26
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-server
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-servlet-4.0-api
+      stream: 9.0.43
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-servlet-engine
+      stream: 9.0.43
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-symkey
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: pki-tools
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: podman
+      stream: 4.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: podman-catatonit
+      stream: 4.0.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: podman-docker
+      stream: 4.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: podman-gvproxy
+      stream: 4.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: podman-plugins
+      stream: 4.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: podman-remote
+      stream: 4.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: podman-tests
+      stream: 4.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql
+      stream: '13.5'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-contrib
+      stream: '13.5'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-plperl
+      stream: '13.5'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-plpython3
+      stream: '13.5'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-pltcl
+      stream: '13.5'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-private-devel
+      stream: '13.10'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-private-libs
+      stream: '13.10'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-server
+      stream: '13.5'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-server-devel
+      stream: '13.10'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-test
+      stream: '13.10'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: postgresql-upgrade
+      stream: '13.5'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python-unversioned-command
+      stream: 3.9.10
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3
+      stream: 3.9.10
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-clang
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-debug
+      stream: 3.9.16
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-devel
+      stream: 3.9.10
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-idle
+      stream: 3.9.16
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-idm-pki
+      stream: 11.2.1
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-libs
+      stream: 3.9.10
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-lit
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-lldb
+      stream: 15.0.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-pki
+      stream: 11.0.4
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-podman
+      stream: 4.4.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-test
+      stream: 3.9.16
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3-tkinter
+      stream: 3.9.10
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-PyMySQL
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-PyMySQL+rsa
+      stream: 1.0.2
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-cffi
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-charset-normalizer
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-cryptography
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-debug
+      stream: 3.11.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-devel
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-idle
+      stream: 3.11.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-idna
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-libs
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-lxml
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-mod_wsgi
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-numpy
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-numpy-f2py
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-pip
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-pip-wheel
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-ply
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-psycopg2
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-psycopg2-debug
+      stream: 2.9.3
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-psycopg2-tests
+      stream: 2.9.3
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-pycparser
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-pysocks
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-pyyaml
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-requests
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-requests+security
+      stream: 2.28.1
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-requests+socks
+      stream: 2.28.1
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-scipy
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-setuptools
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-setuptools-wheel
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-six
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-test
+      stream: 3.11.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-tkinter
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-urllib3
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-wheel
+      stream: '3.11'
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.11-wheel-wheel
+      stream: 0.38.4
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: python3.12
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-Cython
+      stream: 0.29.35
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-PyMySQL
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-PyMySQL+rsa
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-cffi
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-charset-normalizer
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-cryptography
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-debug
+      stream: 3.12.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-devel
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-idle
+      stream: 3.12.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-idna
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-iniconfig
+      stream: 1.1.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-libs
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-lxml
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-mod_wsgi
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-numpy
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-numpy-f2py
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-packaging
+      stream: '23.2'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-pip
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-pip-wheel
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-pluggy
+      stream: 1.2.0
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-ply
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-psycopg2
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-psycopg2-debug
+      stream: 2.9.6
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-psycopg2-tests
+      stream: 2.9.6
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-pybind11
+      stream: 2.11.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-pybind11-devel
+      stream: 2.11.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-pycparser
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-pytest
+      stream: 7.4.2
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-pyyaml
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-requests
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-scipy
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-scipy-tests
+      stream: 1.11.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-semantic_version
+      stream: 2.10.0
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-setuptools
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-setuptools-rust
+      stream: 1.7.0
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-setuptools-wheel
+      stream: 68.2.2
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-test
+      stream: 3.12.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-tkinter
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-urllib3
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-wheel
+      stream: '3.12'
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.12-wheel-wheel
+      stream: 0.41.2
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 9
+    - name: python3.14
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-Cython
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-PyMySQL
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-cffi
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-charset-normalizer
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-cryptography
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-flit-core
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-idna
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-iniconfig
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-lxml
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-meson-python
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-mod_wsgi
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-numpy
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-packaging
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-pip
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-pluggy
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-ply
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-psycopg2
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-pybind11
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-pycparser
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-pyproject-metadata
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-pytest
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-pyyaml
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-requests
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-scipy
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-semantic_version
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-setuptools
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-setuptools-rust
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-setuptools_scm
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: python3.14-urllib3
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 9
+    - name: rls
+      stream: 1.62.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: ruby
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: ruby-default-gems
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: ruby-devel
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: ruby-doc
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: ruby-libs
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-bigdecimal
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-bundler
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-io-console
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-irb
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-json
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-minitest
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-power_assert
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-psych
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-rake
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-rbs
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-rdoc
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-rexml
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-rss
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-test-unit
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygem-typeprof
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygems
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rubygems-devel
+      stream: '3.0'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: runc
+      stream: 1.1.4
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-analysis
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-analyzer
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-debugger-common
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-doc
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-gdb
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-lldb
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-src
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-srpm-macros
+      stream: '17'
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-std-static
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-std-static-wasm32-unknown-unknown
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-std-static-wasm32-wasi
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-std-static-wasm32-wasip1
+      stream: 1.79.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rust-toolset
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: rustfmt
+      stream: 1.66.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: skopeo
+      stream: 1.11.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: skopeo-tests
+      stream: 1.11.2
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: slirp4netns
+      stream: 1.2.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: thunderbird
+      stream: 102.9.0
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: tomcatjss
+      stream: 8.0.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 9
+    - name: valkey
+      stream: 8.0.3
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 9
+    - name: valkey-devel
+      stream: 8.0.4
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 9
+    dnf_module:
+    - name: mariadb
+      stream: '10.11'
+      end_date: '2028-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: maven
+      stream: '3.8'
+      end_date: '2025-11-30'
+      impl: dnf_module
+      os_major: 9
+    - name: maven
+      stream: '3.9'
+      end_date: '2028-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: mysql
+      stream: '8.4'
+      end_date: '2029-04-30'
+      impl: dnf_module
+      os_major: 9
+    - name: nginx
+      stream: '1.22'
+      end_date: '2025-11-30'
+      impl: dnf_module
+      os_major: 9
+    - name: nginx
+      stream: '1.24'
+      end_date: '2027-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: nginx
+      stream: '1.26'
+      end_date: '2028-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: nodejs
+      stream: '18'
+      end_date: '2025-04-30'
+      impl: dnf_module
+      os_major: 9
+    - name: nodejs
+      stream: '20'
+      end_date: '2026-04-30'
+      impl: dnf_module
+      os_major: 9
+    - name: nodejs
+      stream: '22'
+      end_date: '2027-04-30'
+      impl: dnf_module
+      os_major: 9
+    - name: nodejs
+      stream: '24'
+      end_date: '2028-04-30'
+      impl: dnf_module
+      os_major: 9
+    - name: php
+      stream: '8.1'
+      end_date: '2025-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: php
+      stream: '8.2'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: php
+      stream: '8.3'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: postgresql
+      stream: '15'
+      end_date: '2028-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: postgresql
+      stream: '16'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: redis
+      stream: '7'
+      end_date: '2026-11-30'
+      impl: dnf_module
+      os_major: 9
+    - name: ruby
+      stream: '3.1'
+      end_date: '2025-03-31'
+      impl: dnf_module
+      os_major: 9
+    - name: ruby
+      stream: '3.3'
+      end_date: '2027-03-31'
+      impl: dnf_module
+      os_major: 9
+  el10:
+    package:
+    - name: aardvark-dns
+      stream: 1.14.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: ansible-core
+      stream: 2.16.14
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: ansible-test
+      stream: 2.16.14
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-runtime-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-runtime-8.0
+      stream: 8.0.13
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-runtime-9.0
+      stream: 9.0.2
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-runtime-dbg-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-runtime-dbg-8.0
+      stream: 8.0.13
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-runtime-dbg-9.0
+      stream: 9.0.2
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-targeting-pack-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-targeting-pack-8.0
+      stream: 8.0.13
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-targeting-pack-9.0
+      stream: 9.0.2
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: bindgen-cli
+      stream: 0.72.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: bubblewrap
+      stream: 0.10.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: buildah
+      stream: 1.39.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: buildah-tests
+      stream: 1.39.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: cargo
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: cbindgen
+      stream: 0.29.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: clang
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: clang-analyzer
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: clang-devel
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: clang-libs
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: clang-resource-filesystem
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: clang-tools-extra
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: clippy
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: cmake
+      stream: 3.30.5
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: cmake-data
+      stream: 3.30.5
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: cmake-filesystem
+      stream: 3.30.5
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: cmake-gui
+      stream: 3.30.5
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: cmake-rpm-macros
+      stream: 3.30.5
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: compiler-rt
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: conmon
+      stream: 2.1.13
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: container-selinux
+      stream: 2.235.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: containers-common
+      stream: 0.62.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: crun
+      stream: '1.21'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: delve
+      stream: 1.22.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: dotnet-apphost-pack-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-apphost-pack-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: dotnet-apphost-pack-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: dotnet-host
+      stream: '10.0'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: dotnet-hostfxr-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-hostfxr-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: dotnet-hostfxr-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: dotnet-runtime-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-runtime-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: dotnet-runtime-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: dotnet-runtime-dbg-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-runtime-dbg-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: dotnet-runtime-dbg-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-10.0-source-built-artifacts
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-8.0-source-built-artifacts
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-9.0-source-built-artifacts
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-aot-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-aot-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-dbg-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-dbg-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-dbg-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: dotnet-targeting-pack-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-targeting-pack-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: dotnet-targeting-pack-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: dotnet-templates-10.0
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-templates-8.0
+      stream: '8.0'
+      end_date: '2026-11-30'
+      impl: package
+      os_major: 10
+    - name: dotnet-templates-9.0
+      stream: '9.0'
+      end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: firefox
+      stream: 128.7.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: firefox-x11
+      stream: 128.7.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: fuse-overlayfs
+      stream: '1.14'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-binutils
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-binutils-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-binutils-gold
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-binutils-gprofng
+      stream: '2.44'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-gcc
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-gcc-c++
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-gcc-gfortran
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-gcc-plugin-annobin
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-gcc-plugin-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libasan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libatomic-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libgccjit
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libgccjit-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libhwasan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libitm-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-liblsan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libquadmath-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libstdc++-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libstdc++-docs
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libtsan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-libubsan-devel
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-offload-nvptx
+      stream: '15'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: gcc-toolset-15-runtime
+      stream: '15.0'
+      end_date: '2029-11-09'
+      impl: package
+      os_major: 10
+    - name: git
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-all
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-clang-format
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-core
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-core-doc
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-credential-libsecret
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-daemon
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-email
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-gui
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-instaweb
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-lfs
+      stream: 3.6.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-subtree
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: git-svn
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: gitk
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: gitweb
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: go-filesystem
+      stream: 3.6.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: go-rpm-macros
+      stream: 3.6.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: go-rpm-templates
+      stream: 3.6.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: go-toolset
+      stream: 1.23.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: golang
+      stream: 1.23.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: golang-bin
+      stream: 1.23.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: golang-misc
+      stream: 1.23.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: golang-race
+      stream: 1.24.6
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: golang-src
+      stream: 1.23.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: golang-tests
+      stream: 1.23.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: gvisor-tap-vsock
+      stream: 0.8.5
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: httpd
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: httpd-devel
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: httpd-filesystem
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: httpd-manual
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: httpd-tools
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-jss
+      stream: 5.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-jss-tomcat
+      stream: 5.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-ldapjdk
+      stream: 5.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-pki-acme
+      stream: 11.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-pki-base
+      stream: 11.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-pki-ca
+      stream: 11.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-pki-java
+      stream: 11.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-pki-kra
+      stream: 11.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-pki-server
+      stream: 11.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: idm-pki-tools
+      stream: 11.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-demo
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-demo-fastdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-demo-slowdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-devel
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-devel-fastdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-devel-slowdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-fastdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-headless
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-headless-fastdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-headless-slowdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-javadoc
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-javadoc-zip
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-jmods
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-jmods-fastdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-jmods-slowdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-slowdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-src
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-src-fastdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-src-slowdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-static-libs
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-static-libs-fastdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-21-openjdk-static-libs-slowdebug
+      stream: 21.0.6.0.7
+      end_date: '2029-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-demo
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-demo-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-demo-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-devel
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-devel-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-devel-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-headless
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-headless-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-headless-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-javadoc
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-javadoc-zip
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-jmods
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-jmods-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-jmods-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-src
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-src-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-src-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-static-libs
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-static-libs-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: java-25-openjdk-static-libs-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 10
+    - name: libomp
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: libomp-devel
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: lld
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: lld-devel
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: lld-libs
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: lldb
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: lldb-devel
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: llvm
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: llvm-devel
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: llvm-filesystem
+      stream: 20.1.8
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: llvm-googletest
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: llvm-libs
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: llvm-static
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: llvm-test
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: llvm-toolset
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-backup
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-common
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-embedded
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-errmsg
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-gssapi-server
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-oqgraph-engine
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-pam
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-server
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-server-galera
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb-server-utils
+      stream: 10.11.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mariadb11.8
+      stream: 11.8.3
+      end_date: '2028-09-04'
+      impl: package
+      os_major: 10
+    - name: mod_ldap
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mod_lua
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mod_proxy_cluster
+      stream: 1.3.22
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: mod_proxy_html
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mod_session
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mod_ssl
+      stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mysql8.4
+      stream: 8.4.0
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 10
+    - name: netavark
+      stream: 1.14.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: netstandard-targeting-pack-2.1
+      stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: nginx
+      stream: 1.26.3
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: nodejs
+      stream: 22.13.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs-devel
+      stream: 22.13.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs-full-i18n
+      stream: 22.13.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs-libs
+      stream: 22.13.1
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs-nodemon
+      stream: 3.0.3
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs-npm
+      stream: 10.9.2
+      end_date: '2027-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs24
+      stream: '24'
+      end_date: '2028-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs24-devel
+      stream: '24'
+      end_date: '2028-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs24-full-i18n
+      stream: '24'
+      end_date: '2028-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs24-libs
+      stream: '24'
+      end_date: '2028-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs24-npm
+      stream: 11.3.0
+      end_date: '2028-04-30'
+      impl: package
+      os_major: 10
+    - name: oci-seccomp-bpf-hook
+      stream: 1.2.11
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl
+      stream: 5.40.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Attribute-Handlers
+      stream: '1.03'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-AutoLoader
+      stream: '5.74'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-AutoSplit
+      stream: '5.74'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-B
+      stream: '1.89'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Benchmark
+      stream: '1.25'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Class-Struct
+      stream: '0.68'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Config-Extensions
+      stream: '0.03'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-DBM_Filter
+      stream: '0.06'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Devel-Peek
+      stream: '1.34'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Devel-SelfStubber
+      stream: '1.06'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-DirHandle
+      stream: '1.05'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Dumpvalue
+      stream: '2.27'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-DynaLoader
+      stream: '1.56'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-English
+      stream: '1.11'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Errno
+      stream: '1.38'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-ExtUtils-Constant
+      stream: '0.25'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-ExtUtils-Embed
+      stream: '1.35'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-ExtUtils-Miniperl
+      stream: '1.14'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Fcntl
+      stream: '1.18'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-File-Basename
+      stream: '2.86'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-File-Compare
+      stream: 1.100.800
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-File-Copy
+      stream: '2.41'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-File-DosGlob
+      stream: '1.12'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-File-Find
+      stream: '1.44'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-File-stat
+      stream: '1.14'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-FileCache
+      stream: '1.10'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-FileHandle
+      stream: '2.05'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-FindBin
+      stream: '1.54'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-GDBM_File
+      stream: '1.24'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Getopt-Std
+      stream: '1.14'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Git
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Git-SVN
+      stream: 2.47.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Hash-Util
+      stream: '0.32'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Hash-Util-FieldHash
+      stream: '1.27'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-I18N-Collate
+      stream: '1.02'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-I18N-LangTags
+      stream: '0.45'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-I18N-Langinfo
+      stream: '0.24'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-IO
+      stream: '1.55'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-IPC-Open3
+      stream: '1.22'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Locale-Maketext-Simple
+      stream: '0.21'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Math-Complex
+      stream: '1.62'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Memoize
+      stream: '1.16'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Module-Loaded
+      stream: '0.08'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-NDBM_File
+      stream: '1.17'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-NEXT
+      stream: '0.69'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Net
+      stream: '1.04'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-ODBM_File
+      stream: '1.18'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Opcode
+      stream: '1.65'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-POSIX
+      stream: '2.20'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Pod-Functions
+      stream: '1.14'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Pod-Html
+      stream: '1.35'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Safe
+      stream: '2.46'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Search-Dict
+      stream: '1.07'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-SelectSaver
+      stream: '1.02'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-SelfLoader
+      stream: '1.27'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Symbol
+      stream: '1.09'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Sys-Hostname
+      stream: '1.25'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Term-Complete
+      stream: '1.403'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Term-ReadLine
+      stream: '1.17'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Test
+      stream: '1.31'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Text-Abbrev
+      stream: '1.02'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Thread
+      stream: '3.05'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Thread-Semaphore
+      stream: '2.13'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Tie
+      stream: '4.6'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Tie-File
+      stream: '1.09'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Tie-Memoize
+      stream: '1.1'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Time
+      stream: '1.04'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Time-Piece
+      stream: '1.3401'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-Unicode-UCD
+      stream: '0.78'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-User-pwent
+      stream: '1.05'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-autouse
+      stream: '1.11'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-base
+      stream: '2.27'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-blib
+      stream: '1.07'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-debugger
+      stream: '1.60'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-deprecate
+      stream: '0.04'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-devel
+      stream: 5.40.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-diagnostics
+      stream: '1.40'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-encoding-warnings
+      stream: '0.14'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-fields
+      stream: '2.27'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-filetest
+      stream: '1.03'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-if
+      stream: 0.61.000
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-interpreter
+      stream: 5.40.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-less
+      stream: '0.03'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-lib
+      stream: '0.65'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-libnetcfg
+      stream: 5.40.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-libs
+      stream: 5.40.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-locale
+      stream: '1.12'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-macros
+      stream: 5.40.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-meta-notation
+      stream: 5.40.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-mro
+      stream: '1.29'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-open
+      stream: '1.13'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-overload
+      stream: '1.37'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-overloading
+      stream: '0.02'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-ph
+      stream: 5.40.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-sigtrap
+      stream: '1.10'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-sort
+      stream: '2.05'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-subs
+      stream: '1.04'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-utils
+      stream: 5.40.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-vars
+      stream: '1.05'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: perl-vmsish
+      stream: '1.04'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-bcmath
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-cli
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-common
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-dba
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-dbg
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-devel
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-embedded
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-enchant
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-ffi
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-fpm
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-gd
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-gmp
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-intl
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-ldap
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-mbstring
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-mysqlnd
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-odbc
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-opcache
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-pdo
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-pgsql
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-process
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-snmp
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-soap
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-xml
+      stream: 8.3.15
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php8.4
+      stream: 8.4.12
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 10
+    - name: php8.4-pecl-apcu
+      stream: 5.1.27
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 10
+    - name: php8.4-pecl-redis6
+      stream: 6.2.0
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 10
+    - name: php8.4-pecl-rrd
+      stream: 2.0.3
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 10
+    - name: php8.4-pecl-xdebug3
+      stream: 3.4.5
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 10
+    - name: php8.4-pecl-zip
+      stream: 1.22.6
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 10
+    - name: podman
+      stream: 5.4.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: podman-docker
+      stream: 5.4.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: podman-remote
+      stream: 5.4.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: podman-sequoia
+      stream: '1'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: podman-tests
+      stream: 5.4.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: postgresql
+      stream: '16.8'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: postgresql-contrib
+      stream: '16.8'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: postgresql-plperl
+      stream: '16.8'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: postgresql-plpython3
+      stream: '16.8'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: postgresql-pltcl
+      stream: '16.8'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: postgresql-server
+      stream: '16.8'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: postgresql-upgrade
+      stream: '16.8'
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: postgresql18
+      stream: '18.0'
+      end_date: '2030-11-14'
+      impl: package
+      os_major: 10
+    - name: python-unversioned-command
+      stream: 3.12.10
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: python3
+      stream: 3.12.10
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: python3-clang
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: python3-devel
+      stream: 3.12.10
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: python3-idm-pki
+      stream: 11.6.0
+      end_date: '2027-05-31'
+      impl: package
+      os_major: 10
+    - name: python3-libs
+      stream: 3.12.10
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: python3-lit
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: python3-lldb
+      stream: 19.1.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: python3-podman
+      stream: 5.4.0.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: python3-tkinter
+      stream: 3.12.10
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: python3.14
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-Cython
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-PyMySQL
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-cffi
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-charset-normalizer
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-cryptography
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-flit-core
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-idna
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-iniconfig
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-lxml
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-meson-python
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-mod_wsgi
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-numpy
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-packaging
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-pip
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-pluggy
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-ply
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-psycopg2
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-pybind11
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-pycparser
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-pyproject-metadata
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-pytest
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-pyyaml
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-requests
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-scipy
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-semantic_version
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-setuptools
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-setuptools-rust
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-setuptools_scm
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: python3.14-urllib3
+      stream: '3.14'
+      end_date: '2029-05-12'
+      impl: package
+      os_major: 10
+    - name: ruby
+      stream: 3.3.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: ruby-bundled-gems
+      stream: 3.3.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: ruby-default-gems
+      stream: 3.3.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: ruby-devel
+      stream: 3.3.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: ruby-doc
+      stream: 3.3.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: ruby-libs
+      stream: 3.3.7
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-bigdecimal
+      stream: 3.1.5
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-bundler
+      stream: 2.5.22
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-io-console
+      stream: 0.7.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-irb
+      stream: 1.13.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-json
+      stream: 2.7.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-minitest
+      stream: 5.20.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-mysql2
+      stream: 0.5.5
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-mysql2-doc
+      stream: 0.5.5
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-pg
+      stream: 1.5.4
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-pg-doc
+      stream: 1.5.4
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-power_assert
+      stream: 2.0.3
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-psych
+      stream: 5.1.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-racc
+      stream: 1.7.3
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-rake
+      stream: 13.1.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-rbs
+      stream: 3.4.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-rdoc
+      stream: 6.6.3.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-rexml
+      stream: 3.3.9
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-rss
+      stream: 0.3.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-test-unit
+      stream: 3.6.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygem-typeprof
+      stream: 0.21.9
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygems
+      stream: 3.5.22
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rubygems-devel
+      stream: 3.5.22
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-analyzer
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-debugger-common
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-doc
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-gdb
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-lldb
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-src
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-std-static
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-std-static-wasm32-unknown-unknown
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-std-static-wasm32-wasip1
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rust-toolset
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: rustfmt
+      stream: 1.85.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: skopeo
+      stream: 1.18.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: skopeo-tests
+      stream: 1.18.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: slirp4netns
+      stream: 1.3.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: thunderbird
+      stream: 128.7.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: tomcat9
+      stream: 9.0.87
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 10
+    - name: tomcat9-admin-webapps
+      stream: 9.0.87
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 10
+    - name: tomcat9-docs-webapp
+      stream: 9.0.87
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 10
+    - name: tomcat9-el-3.0-api
+      stream: 9.0.87
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 10
+    - name: tomcat9-jsp-2.3-api
+      stream: 9.0.87
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 10
+    - name: tomcat9-lib
+      stream: 9.0.87
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 10
+    - name: tomcat9-servlet-4.0-api
+      stream: 9.0.87
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 10
+    - name: tomcat9-webapps
+      stream: 9.0.87
+      end_date: '2026-05-31'
+      impl: package
+      os_major: 10

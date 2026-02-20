@@ -1,0 +1,14 @@
+---
+- name: Run appstream_check when cleanup list is missing
+  ansible.builtin.include_role:
+    name: klaas_.appstream.appstream_check
+  when: appstream_check_packages_to_remove is not defined
+
+- name: Remove packages from appstream_check result
+  become: true
+  ansible.builtin.package:
+    name: "{{ appstream_check_packages_to_remove }}"
+    state: absent
+  when:
+    - appstream_check_packages_to_remove is defined
+    - (appstream_check_packages_to_remove | length) > 0

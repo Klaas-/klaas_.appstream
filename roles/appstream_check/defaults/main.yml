@@ -1,0 +1,6 @@
+---
+# You can fail the role execution when any matching appstream entries are detected.
+appstream_check_fail_on_match: false
+
+# Optional date to use for lifecycle comparison instead of current date. Useful for testing or simulating future scenarios.
+# appstream_check_date: 2032-04-01

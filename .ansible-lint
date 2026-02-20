@@ -1,0 +1,3 @@
+---
+exclude_paths:
+  - roles/appstream_check/vars/redhat_appstreams.yml

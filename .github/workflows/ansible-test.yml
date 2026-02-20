@@ -1,0 +1,27 @@
+---
+name: Ansible Sanity and Unit Tests
+
+"on":
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  nox:
+    runs-on: ubuntu-latest
+    name: "Run extra sanity tests"
+    steps:
+      - name: Check out collection
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Run nox
+        uses: ansible-community/antsibull-nox@main
+
+  ansible-test:
+    uses: ansible-community/antsibull-nox/.github/workflows/reusable-nox-matrix.yml@main

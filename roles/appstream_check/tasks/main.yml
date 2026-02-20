@@ -1,0 +1,17 @@
+---
+- name: Load appstreams grouped data from role vars file
+  ansible.builtin.include_vars:
+    file: redhat_appstreams.yml
+
+- name: Run appstream lifecycle check
+  klaas_.appstream.appstream_check:
+    grouped_data: "{{ appstream_check_grouped }}"
+    fail_on_match: "{{ appstream_check_fail_on_match }}"
+    target_major: "el{{ ansible_distribution_major_version | int }}"
+    date: "{{ appstream_check_date | default(omit) }}"
+  register: appstream_check_module_result
+
+- name: Export easy access facts
+  ansible.builtin.set_fact:
+    appstream_check_result: "{{ appstream_check_module_result.appstream_check_result }}"
+    appstream_check_packages_to_remove: "{{ appstream_check_module_result.packages_to_remove }}"

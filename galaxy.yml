@@ -1,0 +1,15 @@
+namespace: klaas_
+name: appstream
+version: 0.1.0
+readme: README.md
+repository: https://github.com/Klaas-/klaas_.appstream
+authors:
+  - Klaas Weyermann @Klaas-
+description: Collection to deal with appstreams on EL and clones
+license:
+  - GPL-3.0-or-later
+tags:
+  - linux
+  - redhat
+  - appstream
+dependencies: {}

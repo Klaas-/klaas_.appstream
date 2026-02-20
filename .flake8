@@ -1,0 +1,5 @@
+[flake8]
+# We need to exclude E402 because ansibles view on that differs
+extend-ignore = E402
+# Increase max file length to ansible-tests recommendation
+max-line-length = 160

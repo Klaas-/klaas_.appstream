@@ -1,0 +1,10 @@
+[MESSAGES CONTROL]
+disable=
+    too-many-locals,
+    missing-function-docstring,
+    duplicate-code,
+    wrong-import-position
+
+[FORMAT]
+# Increase max file length to ansible-tests recommendation
+max-line-length=160
