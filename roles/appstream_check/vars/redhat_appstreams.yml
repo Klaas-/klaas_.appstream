@@ -4645,6 +4645,11 @@ appstream_check_grouped:
       end_date: '2028-05-31'
       impl: dnf_module
       os_major: 9
+    - name: mariadb
+      stream: '11.8'
+      end_date: '2028-09-04'
+      impl: dnf_module
+      os_major: 9
     - name: maven
       stream: '3.8'
       end_date: '2025-11-30'
@@ -4718,6 +4723,11 @@ appstream_check_grouped:
     - name: postgresql
       stream: '16'
       end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: postgresql
+      stream: '18'
+      end_date: '2030-11-30'
       impl: dnf_module
       os_major: 9
     - name: redis
