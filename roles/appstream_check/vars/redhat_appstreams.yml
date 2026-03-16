@@ -1419,6 +1419,26 @@ appstream_check_grouped:
       end_date: '2032-05-31'
       impl: package
       os_major: 9
+    - name: frr
+      stream: 8.3.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: frr-selinux
+      stream: 8.3.1
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: frr10
+      stream: '10'
+      end_date: '2030-11-30'
+      impl: package
+      os_major: 9
+    - name: frr10-selinux
+      stream: '10'
+      end_date: '2030-11-30'
+      impl: package
+      os_major: 9
     - name: fuse-overlayfs
       stream: '1.10'
       end_date: '2032-05-31'
@@ -2642,6 +2662,121 @@ appstream_check_grouped:
     - name: java-21-openjdk-static-libs-slowdebug
       stream: 21.0.0.0.0
       end_date: '2029-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-demo
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-demo-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-demo-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-devel
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-devel-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-devel-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-headless
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-headless-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-headless-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-javadoc
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-javadoc-zip
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-jmods
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-jmods-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-jmods-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-src
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-src-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-src-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-static-libs
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-static-libs-fastdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
+      impl: package
+      os_major: 9
+    - name: java-25-openjdk-static-libs-slowdebug
+      stream: 25.0.0.0.0
+      end_date: '2030-12-31'
       impl: package
       os_major: 9
     - name: jaxb-api
@@ -4409,6 +4544,11 @@ appstream_check_grouped:
       end_date: '2029-05-12'
       impl: package
       os_major: 9
+    - name: redis
+      stream: 6.2.7
+      end_date: '2032-05-31'
+      impl: package
+      os_major: 9
     - name: rls
       stream: 1.62.1
       end_date: '2032-05-31'
@@ -4743,6 +4883,11 @@ appstream_check_grouped:
     - name: ruby
       stream: '3.3'
       end_date: '2027-03-31'
+      impl: dnf_module
+      os_major: 9
+    - name: ruby
+      stream: '4.0'
+      end_date: '2029-03-31'
       impl: dnf_module
       os_major: 9
   el10:
@@ -6502,6 +6647,31 @@ appstream_check_grouped:
       end_date: '2035-05-31'
       impl: package
       os_major: 10
+    - name: php-pecl-apcu
+      stream: 5.1.23
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-pecl-redis6
+      stream: 6.1.0
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-pecl-rrd
+      stream: 2.0.3
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-pecl-xdebug3
+      stream: 3.3.1
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: php-pecl-zip
+      stream: 1.22.3
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
     - name: php-pgsql
       stream: 8.3.15
       end_date: '2035-05-31'
@@ -6852,6 +7022,31 @@ appstream_check_grouped:
       end_date: '2035-05-31'
       impl: package
       os_major: 10
+    - name: ruby4.0
+      stream: '4.0'
+      end_date: '2029-03-31'
+      impl: package
+      os_major: 10
+    - name: ruby4.0-devel
+      stream: '4.0'
+      end_date: '2029-03-31'
+      impl: package
+      os_major: 10
+    - name: ruby4.0-doc
+      stream: '4.0'
+      end_date: '2029-03-31'
+      impl: package
+      os_major: 10
+    - name: ruby4.0-rubygem-mysql2
+      stream: '4.0'
+      end_date: '2029-03-31'
+      impl: package
+      os_major: 10
+    - name: ruby4.0-rubygem-pg
+      stream: '4.0'
+      end_date: '2029-03-31'
+      impl: package
+      os_major: 10
     - name: rubygem-bigdecimal
       stream: 3.1.5
       end_date: '2035-05-31'
@@ -7080,5 +7275,10 @@ appstream_check_grouped:
     - name: tomcat9-webapps
       stream: 9.0.87
       end_date: '2026-05-31'
+      impl: package
+      os_major: 10
+    - name: valkey
+      stream: 8.0.2
+      end_date: '2035-05-31'
       impl: package
       os_major: 10
