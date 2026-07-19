@@ -62,8 +62,9 @@ Every update to `main` is released to Ansible Galaxy automatically:
 
 - Workflow: `.github/workflows/release.yml`
 - Version bump: commits starting with `chore` (e.g. the weekly data update) bump the minor version, everything else bumps the patch version
-- The workflow updates `galaxy.yml` and `CHANGELOG.md`, tags the release, builds the collection, and publishes it
-- Trigger: push to `main`, completion of the data update workflow, and manual (`workflow_dispatch`, with an optional `dry_run` input that skips pushing and publishing)
+- The workflow updates `galaxy.yml` and `CHANGELOG.md`, tags the release, builds the collection, publishes it, and creates a GitHub release with the changelog notes and the collection tarball attached
+- Trigger: push to `main`, completion of the data update workflow, and manual (`workflow_dispatch`)
+- Manual runs accept a `version` input to release an explicit version (X.Y.Z) instead of the auto-computed bump, and a `dry_run` input that skips pushing and publishing
 - Requires the repository secret `GALAXY_API_KEY` (API token from galaxy.ansible.com)
 
 ## Standalone shell usage
