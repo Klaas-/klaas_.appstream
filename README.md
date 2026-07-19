@@ -56,6 +56,16 @@ The AppStreams vars file is updated automatically by GitHub Actions:
 - Schedule: weekly (Monday 03:00 UTC)
 - Trigger: scheduled and manual (`workflow_dispatch`)
 
+## Releases
+
+Every update to `main` is released to Ansible Galaxy automatically:
+
+- Workflow: `.github/workflows/release.yml`
+- Version bump: commits starting with `chore` (e.g. the weekly data update) bump the minor version, everything else bumps the patch version
+- The workflow updates `galaxy.yml` and `CHANGELOG.md`, tags the release, builds the collection, and publishes it
+- Trigger: push to `main`, completion of the data update workflow, and manual (`workflow_dispatch`, with an optional `dry_run` input that skips pushing and publishing)
+- Requires the repository secret `GALAXY_API_KEY` (API token from galaxy.ansible.com)
+
 ## Standalone shell usage
 
 You can run the same AppStream check logic outside Ansible:

@@ -13,3 +13,15 @@ tags:
   - redhat
   - appstream
 dependencies: {}
+build_ignore:
+  - .github
+  - .ansible-lint
+  - .flake8
+  - .gitignore
+  - .mypy.ini
+  - .pylintrc
+  - .yamllint
+  - antsibull-nox.toml
+  - noxfile.py
+  - requirements-dev.txt
+  - tests/output

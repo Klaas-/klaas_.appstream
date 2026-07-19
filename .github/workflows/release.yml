@@ -1,0 +1,120 @@
+---
+name: Release to Ansible Galaxy
+
+"on":
+  push:
+    branches:
+      - main
+  workflow_run:
+    workflows:
+      - Update AppStreams Data
+    types:
+      - completed
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Build only, without pushing the version bump or publishing to Galaxy.
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: galaxy-release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Check out collection
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Check whether HEAD needs a release
+        id: guard
+        run: |
+          if git describe --exact-match --tags HEAD >/dev/null 2>&1; then
+            echo "HEAD is already tagged; nothing to release."
+            echo "release=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "release=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Bump version and changelog
+        id: version
+        if: steps.guard.outputs.release == 'true'
+        run: |
+          last_tag="$(git describe --tags --abbrev=0 2>/dev/null || true)"
+
+          # chore commits (weekly appstream data updates) bump the minor version,
+          # everything else bumps the patch version.
+          bump=patch
+          if [ -n "$last_tag" ] && git log "${last_tag}..HEAD" --format=%s | grep -q '^chore'; then
+            bump=minor
+          fi
+
+          new_version="$(python3 - "$bump" <<'EOF'
+          import re
+          import sys
+          from pathlib import Path
+
+          bump = sys.argv[1]
+          path = Path("galaxy.yml")
+          text = path.read_text(encoding="utf-8")
+          match = re.search(r"^version: (\d+)\.(\d+)\.(\d+)$", text, flags=re.M)
+          major, minor, patch = (int(part) for part in match.groups())
+          if bump == "minor":
+              minor, patch = minor + 1, 0
+          else:
+              patch += 1
+          version = f"{major}.{minor}.{patch}"
+          path.write_text(text.replace(match.group(0), f"version: {version}", 1), encoding="utf-8")
+          print(version)
+          EOF
+          )"
+
+          {
+            head -n 3 CHANGELOG.md
+            echo ""
+            echo "## ${new_version} ($(date -u +%Y-%m-%d))"
+            echo ""
+            if [ -n "$last_tag" ]; then
+              git log "${last_tag}..HEAD" --format='- %s'
+            else
+              git log --format='- %s'
+            fi
+            tail -n +4 CHANGELOG.md
+          } > CHANGELOG.md.new
+          mv CHANGELOG.md.new CHANGELOG.md
+
+          echo "Releasing version ${new_version} (${bump} bump)"
+          echo "version=${new_version}" >> "$GITHUB_OUTPUT"
+
+      - name: Install ansible-core
+        if: steps.guard.outputs.release == 'true'
+        run: pip install ansible-core
+
+      - name: Build collection
+        if: steps.guard.outputs.release == 'true'
+        run: ansible-galaxy collection build
+
+      - name: Commit, tag, and push release
+        if: steps.guard.outputs.release == 'true' && inputs.dry_run != true
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add galaxy.yml CHANGELOG.md
+          git commit -m "chore(release): ${{ steps.version.outputs.version }}"
+          git tag "${{ steps.version.outputs.version }}"
+          git push origin main "${{ steps.version.outputs.version }}"
+
+      - name: Publish to Ansible Galaxy
+        if: steps.guard.outputs.release == 'true' && inputs.dry_run != true
+        env:
+          GALAXY_API_KEY: ${{ secrets.GALAXY_API_KEY }}
+        run: ansible-galaxy collection publish "klaas_-appstream-${{ steps.version.outputs.version }}.tar.gz" --api-key "$GALAXY_API_KEY"
