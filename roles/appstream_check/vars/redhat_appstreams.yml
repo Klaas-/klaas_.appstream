@@ -1469,11 +1469,6 @@ appstream_check_grouped:
       end_date: '2026-11-10'
       impl: package
       os_major: 9
-    - name: esc
-      stream: 1.1.2
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
     - name: firefox
       stream: 102.9.0
       end_date: '2032-05-31'
@@ -2359,66 +2354,6 @@ appstream_check_grouped:
       end_date: '2032-05-31'
       impl: package
       os_major: 9
-    - name: idm-jss
-      stream: 5.2.1
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-jss-tomcat
-      stream: 5.5.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-ldapjdk
-      stream: 5.2.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-pki-acme
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-pki-base
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-pki-ca
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-pki-est
-      stream: 11.3.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-pki-java
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-pki-kra
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-pki-server
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-pki-tools
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: idm-tomcatjss
-      stream: 8.2.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
     - name: java-1.8.0-openjdk
       stream: 1.8.0.322.b06
       end_date: '2026-11-30'
@@ -2979,44 +2914,9 @@ appstream_check_grouped:
       end_date: '2030-12-31'
       impl: package
       os_major: 9
-    - name: jaxb-api
-      stream: 2.3.3
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: jboss-jaxrs-2.0-api
-      stream: 1.0.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: jboss-logging
-      stream: 3.4.1
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: jboss-logging-tools
-      stream: 2.2.1
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: jdeparser
-      stream: 2.0.3
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
     - name: jmc-core
       stream: 7.1.1
       end_date: '2032-05-31'
-      impl: package
-      os_major: 9
-    - name: jss
-      stream: 5.0.3
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: ldapjdk
-      stream: 5.0.0
-      end_date: '2027-05-31'
       impl: package
       os_major: 9
     - name: libomp
@@ -3939,111 +3839,6 @@ appstream_check_grouped:
       end_date: '2032-05-31'
       impl: package
       os_major: 9
-    - name: pki-acme
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-base
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-base-java
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-ca
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-jackson-annotations
-      stream: 2.11.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-jackson-core
-      stream: 2.11.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-jackson-databind
-      stream: 2.11.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-jackson-jaxrs-json-provider
-      stream: 2.11.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-jackson-jaxrs-providers
-      stream: 2.11.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-jackson-module-jaxb-annotations
-      stream: 2.11.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-kra
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-resteasy
-      stream: 3.0.26
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-resteasy-client
-      stream: 3.0.26
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-resteasy-core
-      stream: 3.0.26
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-resteasy-jackson2-provider
-      stream: 3.0.26
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-resteasy-servlet-initializer
-      stream: 3.0.26
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-server
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-servlet-4.0-api
-      stream: 9.0.43
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-servlet-engine
-      stream: 9.0.43
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-symkey
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
-    - name: pki-tools
-      stream: 11.0.4
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
     - name: podman
       stream: 4.4.1
       end_date: '2032-05-31'
@@ -4164,11 +3959,6 @@ appstream_check_grouped:
       end_date: '2032-05-31'
       impl: package
       os_major: 9
-    - name: python3-idm-pki
-      stream: 11.2.1
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
     - name: python3-libs
       stream: 3.9.10
       end_date: '2032-05-31'
@@ -4182,11 +3972,6 @@ appstream_check_grouped:
     - name: python3-lldb
       stream: 15.0.7
       end_date: '2032-05-31'
-      impl: package
-      os_major: 9
-    - name: python3-pki
-      stream: 11.0.4
-      end_date: '2027-05-31'
       impl: package
       os_major: 9
     - name: python3-podman
@@ -5064,11 +4849,6 @@ appstream_check_grouped:
       end_date: '2032-05-31'
       impl: package
       os_major: 9
-    - name: tomcatjss
-      stream: 8.0.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 9
     - name: valkey
       stream: 8.0.3
       end_date: '2029-05-31'
@@ -5152,6 +4932,11 @@ appstream_check_grouped:
       os_major: 9
     - name: php
       stream: '8.3'
+      end_date: '2029-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: php
+      stream: '8.4'
       end_date: '2029-05-31'
       impl: dnf_module
       os_major: 9
@@ -5250,6 +5035,36 @@ appstream_check_grouped:
     - name: aspnetcore-targeting-pack-9.0
       stream: 9.0.2
       end_date: '2026-11-10'
+      impl: package
+      os_major: 10
+    - name: bind9.20
+      stream: '9.20'
+      end_date: '2028-11-10'
+      impl: package
+      os_major: 10
+    - name: bind9.20-chroot
+      stream: '9.20'
+      end_date: '2028-11-10'
+      impl: package
+      os_major: 10
+    - name: bind9.20-devel
+      stream: '9.20'
+      end_date: '2028-11-10'
+      impl: package
+      os_major: 10
+    - name: bind9.20-dnssec-utils
+      stream: '9.20'
+      end_date: '2028-11-10'
+      impl: package
+      os_major: 10
+    - name: bind9.20-libs
+      stream: '9.20'
+      end_date: '2028-11-10'
+      impl: package
+      os_major: 10
+    - name: bind9.20-utils
+      stream: '9.20'
+      end_date: '2028-11-10'
       impl: package
       os_major: 10
     - name: bindgen-cli
@@ -5940,56 +5755,6 @@ appstream_check_grouped:
     - name: httpd-tools
       stream: 2.4.63
       end_date: '2035-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-jss
-      stream: 5.6.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-jss-tomcat
-      stream: 5.6.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-ldapjdk
-      stream: 5.6.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-pki-acme
-      stream: 11.6.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-pki-base
-      stream: 11.6.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-pki-ca
-      stream: 11.6.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-pki-java
-      stream: 11.6.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-pki-kra
-      stream: 11.6.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-pki-server
-      stream: 11.6.0
-      end_date: '2027-05-31'
-      impl: package
-      os_major: 10
-    - name: idm-pki-tools
-      stream: 11.6.0
-      end_date: '2027-05-31'
       impl: package
       os_major: 10
     - name: java-21-openjdk
@@ -7522,6 +7287,81 @@ appstream_check_grouped:
       end_date: '2030-11-14'
       impl: package
       os_major: 10
+    - name: postgresql19
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-contrib
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-docs
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-plperl
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-plpython3
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-pltcl
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-private-devel
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-private-libs
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-server
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-server-devel
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-static
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-test
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-test-rpm-macros
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-upgrade
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
+    - name: postgresql19-upgrade-devel
+      stream: '19'
+      end_date: '2031-11-09'
+      impl: package
+      os_major: 10
     - name: python-unversioned-command
       stream: 3.12.10
       end_date: '2035-05-31'
@@ -7540,11 +7380,6 @@ appstream_check_grouped:
     - name: python3-devel
       stream: 3.12.10
       end_date: '2035-05-31'
-      impl: package
-      os_major: 10
-    - name: python3-idm-pki
-      stream: 11.6.0
-      end_date: '2027-05-31'
       impl: package
       os_major: 10
     - name: python3-libs
