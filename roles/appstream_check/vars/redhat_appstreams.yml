@@ -422,6 +422,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 8
+    - name: dotnet11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 8
     - name: dotnet3.0
       stream: '3.0'
       end_date: '2020-03-03'
@@ -999,6 +1004,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 9
+    - name: aspnetcore-runtime-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
     - name: aspnetcore-runtime-6.0
       stream: 6.0.3
       end_date: '2024-11-08'
@@ -1024,6 +1034,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 9
+    - name: aspnetcore-runtime-dbg-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
     - name: aspnetcore-runtime-dbg-8.0
       stream: '8.0'
       end_date: '2026-11-30'
@@ -1036,6 +1051,11 @@ appstream_check_grouped:
       os_major: 9
     - name: aspnetcore-targeting-pack-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: aspnetcore-targeting-pack-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 9
@@ -1254,6 +1274,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 9
+    - name: dotnet-apphost-pack-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
     - name: dotnet-apphost-pack-6.0
       stream: 6.0.3
       end_date: '2024-11-08'
@@ -1275,12 +1300,17 @@ appstream_check_grouped:
       impl: package
       os_major: 9
     - name: dotnet-host
-      stream: '10.0'
+      stream: '11.0'
       end_date: '2032-05-31'
       impl: package
       os_major: 9
     - name: dotnet-hostfxr-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-hostfxr-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 9
@@ -1309,6 +1339,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 9
+    - name: dotnet-runtime-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
     - name: dotnet-runtime-6.0
       stream: 6.0.3
       end_date: '2024-11-08'
@@ -1334,6 +1369,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 9
+    - name: dotnet-runtime-dbg-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
     - name: dotnet-runtime-dbg-8.0
       stream: '8.0'
       end_date: '2026-11-30'
@@ -1351,6 +1391,16 @@ appstream_check_grouped:
       os_major: 9
     - name: dotnet-sdk-10.0-source-built-artifacts
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-11.0-source-built-artifacts
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 9
@@ -1399,6 +1449,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 9
+    - name: dotnet-sdk-aot-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
     - name: dotnet-sdk-aot-9.0
       stream: '9.0'
       end_date: '2026-11-10'
@@ -1406,6 +1461,11 @@ appstream_check_grouped:
       os_major: 9
     - name: dotnet-sdk-dbg-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-sdk-dbg-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 9
@@ -1421,6 +1481,11 @@ appstream_check_grouped:
       os_major: 9
     - name: dotnet-targeting-pack-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-targeting-pack-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 9
@@ -1446,6 +1511,11 @@ appstream_check_grouped:
       os_major: 9
     - name: dotnet-templates-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 9
+    - name: dotnet-templates-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 9
@@ -4920,6 +4990,11 @@ appstream_check_grouped:
       end_date: '2028-04-30'
       impl: dnf_module
       os_major: 9
+    - name: nodejs
+      stream: '26'
+      end_date: '2029-04-30'
+      impl: dnf_module
+      os_major: 9
     - name: php
       stream: '8.1'
       end_date: '2025-05-31'
@@ -4997,6 +5072,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 10
+    - name: aspnetcore-runtime-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
     - name: aspnetcore-runtime-8.0
       stream: 8.0.13
       end_date: '2026-11-30'
@@ -5012,6 +5092,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 10
+    - name: aspnetcore-runtime-dbg-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
     - name: aspnetcore-runtime-dbg-8.0
       stream: 8.0.13
       end_date: '2026-11-30'
@@ -5024,6 +5109,11 @@ appstream_check_grouped:
       os_major: 10
     - name: aspnetcore-targeting-pack-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: aspnetcore-targeting-pack-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 10
@@ -5192,6 +5282,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 10
+    - name: dotnet-apphost-pack-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
     - name: dotnet-apphost-pack-8.0
       stream: '8.0'
       end_date: '2026-11-30'
@@ -5203,12 +5298,17 @@ appstream_check_grouped:
       impl: package
       os_major: 10
     - name: dotnet-host
-      stream: '10.0'
+      stream: '11.0'
       end_date: '2035-05-31'
       impl: package
       os_major: 10
     - name: dotnet-hostfxr-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-hostfxr-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 10
@@ -5227,6 +5327,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 10
+    - name: dotnet-runtime-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
     - name: dotnet-runtime-8.0
       stream: '8.0'
       end_date: '2026-11-30'
@@ -5239,6 +5344,11 @@ appstream_check_grouped:
       os_major: 10
     - name: dotnet-runtime-dbg-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-runtime-dbg-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 10
@@ -5259,6 +5369,16 @@ appstream_check_grouped:
       os_major: 10
     - name: dotnet-sdk-10.0-source-built-artifacts
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-11.0-source-built-artifacts
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 10
@@ -5287,6 +5407,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 10
+    - name: dotnet-sdk-aot-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
     - name: dotnet-sdk-aot-9.0
       stream: '9.0'
       end_date: '2026-11-10'
@@ -5294,6 +5419,11 @@ appstream_check_grouped:
       os_major: 10
     - name: dotnet-sdk-dbg-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-sdk-dbg-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 10
@@ -5312,6 +5442,11 @@ appstream_check_grouped:
       end_date: '2028-11-14'
       impl: package
       os_major: 10
+    - name: dotnet-targeting-pack-11.0
+      stream: '11.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
     - name: dotnet-targeting-pack-8.0
       stream: '8.0'
       end_date: '2026-11-30'
@@ -5324,6 +5459,11 @@ appstream_check_grouped:
       os_major: 10
     - name: dotnet-templates-10.0
       stream: '10.0'
+      end_date: '2028-11-14'
+      impl: package
+      os_major: 10
+    - name: dotnet-templates-11.0
+      stream: '11.0'
       end_date: '2028-11-14'
       impl: package
       os_major: 10
@@ -6224,6 +6364,21 @@ appstream_check_grouped:
       os_major: 10
     - name: mod_proxy_html
       stream: 2.4.63
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mod_security
+      stream: 2.9.13
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mod_security-mlogc
+      stream: 2.9.13
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: mod_security_crs
+      stream: 4.15.0
       end_date: '2035-05-31'
       impl: package
       os_major: 10
