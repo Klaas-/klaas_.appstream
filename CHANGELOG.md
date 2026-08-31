@@ -2,6 +2,10 @@
 
 All notable changes to this collection are documented in this file.
 
+## 0.4.0 (2026-08-31)
+
+- chore: update appstream vars data
+
 ## 0.3.0 (2026-07-27)
 
 - chore: update appstream vars data
