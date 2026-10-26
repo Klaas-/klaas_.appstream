@@ -2209,6 +2209,11 @@ appstream_check_grouped:
       end_date: '2030-11-09'
       impl: package
       os_major: 9
+    - name: gcc-toolset-16-libgdiagnostics-devel
+      stream: '16'
+      end_date: '2030-11-09'
+      impl: package
+      os_major: 9
     - name: gcc-toolset-16-libhwasan-devel
       stream: '16'
       end_date: '2030-11-09'
@@ -2987,6 +2992,11 @@ appstream_check_grouped:
     - name: jmc-core
       stream: 7.1.1
       end_date: '2032-05-31'
+      impl: package
+      os_major: 9
+    - name: libgdiagnostics
+      stream: '16'
+      end_date: '2030-11-09'
       impl: package
       os_major: 9
     - name: libomp
@@ -4929,6 +4939,11 @@ appstream_check_grouped:
       end_date: '2029-05-31'
       impl: package
       os_major: 9
+    - name: valkey-rdma
+      stream: 8.1.10
+      end_date: '2029-05-31'
+      impl: package
+      os_major: 9
     dnf_module:
     - name: mariadb
       stream: '10.11'
@@ -4968,6 +4983,11 @@ appstream_check_grouped:
     - name: nginx
       stream: '1.26'
       end_date: '2028-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: nginx
+      stream: '1.30'
+      end_date: '2032-05-31'
       impl: dnf_module
       os_major: 9
     - name: nodejs
@@ -5017,7 +5037,7 @@ appstream_check_grouped:
       os_major: 9
     - name: postgresql
       stream: '15'
-      end_date: '2028-05-31'
+      end_date: '2028-11-30'
       impl: dnf_module
       os_major: 9
     - name: postgresql
@@ -5032,7 +5052,7 @@ appstream_check_grouped:
       os_major: 9
     - name: redis
       stream: '7'
-      end_date: '2026-11-30'
+      end_date: '2032-05-31'
       impl: dnf_module
       os_major: 9
     - name: ruby
@@ -5692,6 +5712,11 @@ appstream_check_grouped:
       end_date: '2030-11-09'
       impl: package
       os_major: 10
+    - name: gcc-toolset-16-libgdiagnostics-devel
+      stream: '16'
+      end_date: '2030-11-09'
+      impl: package
+      os_major: 10
     - name: gcc-toolset-16-libhwasan-devel
       stream: '16'
       end_date: '2030-11-09'
@@ -6142,6 +6167,11 @@ appstream_check_grouped:
       end_date: '2030-12-31'
       impl: package
       os_major: 10
+    - name: libgdiagnostics
+      stream: 16.2.1
+      end_date: '2030-11-09'
+      impl: package
+      os_major: 10
     - name: libomp
       stream: 19.1.7
       end_date: '2035-05-31'
@@ -6367,21 +6397,6 @@ appstream_check_grouped:
       end_date: '2035-05-31'
       impl: package
       os_major: 10
-    - name: mod_security
-      stream: 2.9.13
-      end_date: '2035-05-31'
-      impl: package
-      os_major: 10
-    - name: mod_security-mlogc
-      stream: 2.9.13
-      end_date: '2035-05-31'
-      impl: package
-      os_major: 10
-    - name: mod_security_crs
-      stream: 4.15.0
-      end_date: '2035-05-31'
-      impl: package
-      os_major: 10
     - name: mod_session
       stream: 2.4.63
       end_date: '2035-05-31'
@@ -6465,6 +6480,31 @@ appstream_check_grouped:
     - name: nodejs24-npm
       stream: 11.3.0
       end_date: '2028-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs26
+      stream: '26'
+      end_date: '2029-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs26-devel
+      stream: '26'
+      end_date: '2029-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs26-full-i18n
+      stream: '26'
+      end_date: '2029-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs26-libs
+      stream: '26'
+      end_date: '2029-04-30'
+      impl: package
+      os_major: 10
+    - name: nodejs26-npm
+      stream: '26'
+      end_date: '2029-04-30'
       impl: package
       os_major: 10
     - name: oci-seccomp-bpf-hook
@@ -7382,6 +7422,11 @@ appstream_check_grouped:
       end_date: '2030-11-14'
       impl: package
       os_major: 10
+    - name: postgresql18-pltcl
+      stream: '18.6'
+      end_date: '2030-11-14'
+      impl: package
+      os_major: 10
     - name: postgresql18-postgis
       stream: 3.5.3
       end_date: '2030-11-14'
@@ -8059,46 +8104,56 @@ appstream_check_grouped:
       os_major: 10
     - name: tomcat9
       stream: 9.0.87
-      end_date: '2026-05-31'
+      end_date: '2026-11-10'
       impl: package
       os_major: 10
     - name: tomcat9-admin-webapps
       stream: 9.0.87
-      end_date: '2026-05-31'
+      end_date: '2026-11-10'
       impl: package
       os_major: 10
     - name: tomcat9-docs-webapp
       stream: 9.0.87
-      end_date: '2026-05-31'
+      end_date: '2026-11-10'
       impl: package
       os_major: 10
     - name: tomcat9-el-3.0-api
       stream: 9.0.87
-      end_date: '2026-05-31'
+      end_date: '2026-11-10'
       impl: package
       os_major: 10
     - name: tomcat9-jsp-2.3-api
       stream: 9.0.87
-      end_date: '2026-05-31'
+      end_date: '2026-11-10'
       impl: package
       os_major: 10
     - name: tomcat9-lib
       stream: 9.0.87
-      end_date: '2026-05-31'
+      end_date: '2026-11-10'
       impl: package
       os_major: 10
     - name: tomcat9-servlet-4.0-api
       stream: 9.0.87
-      end_date: '2026-05-31'
+      end_date: '2026-11-10'
       impl: package
       os_major: 10
     - name: tomcat9-webapps
       stream: 9.0.87
-      end_date: '2026-05-31'
+      end_date: '2026-11-10'
       impl: package
       os_major: 10
     - name: valkey
       stream: 8.0.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: valkey-devel
+      stream: 8.0.2
+      end_date: '2035-05-31'
+      impl: package
+      os_major: 10
+    - name: valkey-rdma
+      stream: 8.1.10
       end_date: '2035-05-31'
       impl: package
       os_major: 10
