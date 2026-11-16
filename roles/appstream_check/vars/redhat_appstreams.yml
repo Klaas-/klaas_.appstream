@@ -206,6 +206,11 @@ appstream_check_grouped:
       end_date: '2028-04-30'
       impl: dnf_module
       os_major: 8
+    - name: nodejs
+      stream: '26'
+      end_date: '2029-04-30'
+      impl: dnf_module
+      os_major: 8
     - name: perl
       stream: '5.24'
       end_date: '2021-05-31'
@@ -5068,6 +5073,16 @@ appstream_check_grouped:
     - name: ruby
       stream: '4.0'
       end_date: '2029-03-31'
+      impl: dnf_module
+      os_major: 9
+    - name: swig
+      stream: '4.1'
+      end_date: '2032-05-31'
+      impl: dnf_module
+      os_major: 9
+    - name: swig
+      stream: '4.3'
+      end_date: '2030-12-31'
       impl: dnf_module
       os_major: 9
   el10:
